@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".LogInActivity"
+    android:id="@+id/logInBackground">
+
+    <LinearLayout
+        android:id="@+id/fullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/dripping"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textSize="70dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/languageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="30dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="Language"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/language"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/logoutButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="11dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="    Log in/out"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/game"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/notificationButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="11dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="    Notifications"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/notification"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="12dp"
+                    android:background="@android:color/black"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border">
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="35dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/back"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

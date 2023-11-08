@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/name_border"
+    android:padding="3dp"
+    android:id="@+id/warningLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/warningBackground"
+        android:background="@color/mainColor">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="25dp"
+            android:autoSizeMinTextSize="10dp"
+            android:autoSizeStepGranularity="1dp"
+            android:autoSizeTextType="uniform"
+            android:maxLines="1"
+            android:paddingTop="3dp"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"/>
+
+        <LinearLayout
+            android:id="@+id/buttonPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/name_border">
+
+                <Button
+                    android:id="@+id/yesButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="14dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/white"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/name_border">
+
+                <Button
+                    android:id="@+id/noButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="14dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/white"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

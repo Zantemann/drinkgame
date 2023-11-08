@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".LogInActivity"
+    android:id="@+id/logInBackground">
+
+    <LinearLayout
+        android:id="@+id/fullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/dripping"
+            android:gravity="center"
+            android:text="WeLcOmE"
+            android:textColor="@color/black"
+            android:textSize="70dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border">
+
+                <Button
+                    android:id="@+id/googleSignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="30dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="Sign in with Google"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/googleg_standard_color_18"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="12dp"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:background="@color/mainColor"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-medium"
+                    android:text=" or "
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/name_border">
+
+                <Button
+                    android:id="@+id/questSignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="35dp"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dp"
+                    android:layout_margin="3dp"
+                    android:textSize="14dp"
+                    android:text="Continue as quest"
+                    android:textAllCaps="false"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/home"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">drinkDemo</string>
+    <string name="web_client_id">OK</string>
+    <string name="loginText">    Log in</string>
+    <string name="logoutText">    Log out</string>
+
+    <string name="topic_2">Umpitunneli</string>
+    <string name="topic_3">Paritehtävät</string>
+    <string name="topic_4">Ryhmätehtävät</string>
+    <string name="topic_5">Kuuma linja</string>
+    <string name="topic_6">Jaa tai juo</string>
+    <string name="topic_7">Juo niin monta</string>
+    <string name="topic_8">Jos olet</string>
+    <string name="topic_9">Musiikki</string>
+    <string name="topic_10">Säännöt</string>
+    <string name="topic_11">Ota rauhassa</string>
+    <string name="topic_12">Kova poika</string>
+
+    <string name="task_21">Shotgun: Juo juomasi ykkösellä!</string>
+    <string name="task_22">Juo shotti!</string>
+    <string name="task_23">Juo juomasi loppuun.</string>
+    <string name="task_24">Juo valitsemasi pelaajan juoma.</string>
+    <string name="task_25">Juo niin monta huikkaa, kuin sinulla on ikävuosia.</string>
+    <string name="task_26">Juo syntymäpäiväsi verran huikkia.</string>
+
+    <string name="task_31">Oikealla istuva ottaa puolestasi 2 huikkaa.</string>
+    <string name="task_32">Valitse itsellesi pari. Tee parisi kanssa jokin joogaliike tai juo shotti.</string>
+    <string name="task_33">Pelaa vasemmalla istuvan kanssa kivi-paperi-sakset. Voittaja antaa mielivaltaisen tehtävän häviäjälle.</string>
+    <string name="task_34">Keksi tehtävä vastapäätä istuvalle. Tehtästä kieltäytymisestä 5 huikkaa.</string>
+    <string name="task_35">Tee sinun oikealla istuvalle sokkodrinkki.</string>
+    <string name="task_36">Vastapäätä istuva tekee sinulle sokkodrinkin.</string>
+
+    <string name="task_41">Selitä valitsemasi sana. Oikein arvannut jakaa 10 huikkaa.</string>
+    <string name="task_42">Pelatkaa kierros: En ole koskaan.</string>
+    <string name="task_43">Kaikki jakavat kaksi huikkaa.</string>
+    <string name="task_44">Keksi aihe, josta luettelette sanoja. Se joka ei keksi lisättävää juo 5 huikkaa.</string>
+    <string name="task_45">Kaikki juovat kaksi huikkaa.</string>
+    <string name="task_46">Vesiputous: Kaikki aloittavat juomisen. Lopeta juominen vasta kun oikealla puolella oleva lopettaa.</string>
+
+    <string name="task_51">Ota ryhmäkuva. Julkaise se tai juo shotti.</string>
+    <string name="task_52">Lähetä jollekkin viesti. Vasemmalla istuva valitsee kolme sanaa viestiin. Kieltäytymisestä lasi tyhjäksi.</string>
+    <string name="task_53">Jaa Instagram storyyn lempi bilebiisisi tai juo 3 huikkaa.</string>
+    <string name="task_54">Lähetä munakoiso-emoji WhatsApissa ylimpään keskusteluun kommentoimatta asiaa mitenkään tai juo 5 huikkaa.</string>
+    <string name="task_55">Lähetä viesti exällesi tai juo 3 huikkaa.</string>
+    <string name="task_56">Kysy kuumimman pelaajan sähköpostiosoite tai juo 3 huikkaa.</string>
+
+    <string name="task_61">Tästä lähtien jaa aina 2 huikkaa vuorosi alussa pelin loppuun asti.</string>
+    <string name="task_62">Kaikki juo 2 huikkaa.</string>
+    <string name="task_63">Juo 2 huikkaa.</string>
+    <string name="task_64">Jaa 5 huikkaa.</string>
+    <string name="task_65">Jaa 10 huikkaa.</string>
+    <string name="task_66">Naiset juo 2 huikkaa.</string>
+    <string name="task_67">Juo 4 huikkaa.</string>
+    <string name="task_68">Miehet juo 2 huikkaa.</string>
+    <string name="task_69">Naiset jakaa 2 huikkaa.</string>
+    <string name="task_610">Miehet jakaa 2 huikkaa.</string>
+    <string name="task_611">Kaikki juo 3 huikkaa.</string>
+    <string name="task_612">Alle 20-vuotiaat juo 2 huikkaa.</string>
+
+    <string name="task_71">huikkaa, kuin sinulla on sisaruksia.</string>
+    <string name="task_72">kuikkaa, kuin sinulla on ig postauksia.</string>
+    <string name="task_73">huikkaa, kuin sinulla on Tinder mätsejä, joiden kanssa olet käynyt treffeillä.</string>
+    <string name="task_74">huikkaa, kuin sinulla on ollut työsuhteita.</string>
+    <string name="task_75">huikkaa, kuin sinulla on exiä.</string>
+    <string name="task_76">huikkaa, kuin sinulla on serkkuja.</string>
+    <string name="task_77">huikkaa, kuin sinulla on päälläsi vaatekappaleita.</string>
+    <string name="task_78">huikkaa, kuin olet muuttanut.</string>
+    <string name="task_79">huikkaa, kuin pelissä on osallistujia.</string>
+    <string name="task_710">huikkaa, kuin sinulla on ollut tällä viikolla työ-tai koulupäiviä.</string>
+    <string name="task_711">huikkaa, kuin sinulla on avaamattomia snäppejä.</string>
+    <string name="task_712">huikkaa, kuin olet juonut juomia tänään.</string>
+
+    <string name="task_81">oksentanut bileissä muualle kuin vessanpönttöön, juo 2 huikkaa.</string>
+    <string name="task_82">tehnyt jotain noloa kännissä, juo 2 huikkaa.</string>
+    <string name="task_83">juonut alaikäisenä, juo 2 huikkaa.</string>
+    <string name="task_84">bilepolttaja, juo 2 huikkaa.</string>
+    <string name="task_85">kussut parvekkeelta alas kännissä, juo 2 huikkaa.</string>
+    <string name="task_86">joutunut pyytämään kuskia pysäyttämään kotimatkalla, juo 2 huikkaa.</string>
+    <string name="task_87">ollut 2 päivän krapulassa, juo 2 huikkaa.</string>
+    <string name="task_88">sammunut bileissä, juo 2 huikkaa.</string>
+    <string name="task_89">pöllinyt baarissa jonkun juomat, juo 2 huikkaa.</string>
+    <string name="task_810">lähtenyt baarista jonku mukaan, juo 2 huikkaa.</string>
+    <string name="task_811">juonut käsidesiä, juo 2 huikkaa.</string>
+    <string name="task_812">yrittänyt ottaa baarista mukaan juomia, juo 2 huikkaa.</string>
+
+    <string name="task_91">Luettele 3 romanttista biisiä. Jos epäonnistut juo 2 huikkaa.</string>
+    <string name="task_92">Päätä seuraava biisi.</string>
+    <string name="task_93">Kerro 3 hyvää bilebiisiä.</string>
+    <string name="task_94">Näytä oma tanssiliikkeesi tai juo 3 huikkaa.</string>
+    <string name="task_95">Nostalgiat tulille kaikki tanssii Macarena.</string>
+    <string name="task_96">Karaokea! Valitse itsellesi biisi ja anna palaa tai juo juomasi loppuun.</string>
+
+    <string name="task_101">Sinun on kontattava juomanhakumatkasi. Sääntö on voimassa pelin loppuun asti. Sääntöä rikkoessa 2 huikkaa.</string>
+    <string name="task_102">Keksi uusi sääntö. Sääntöä noudattavat kaikki pelin loppuun asti. Jos tämä unohtuu 2 huikkaa.</string>
+    <string name="task_103">Aina kun oikealla puolella istuva juo, sinä juot kaksi kertaa saman verran. Sääntö voimassa kierroksen loppuun.</string>
+    <string name="task_104">Juomat juodaan vasemmalla kädellä. Säännön rikkomisesta 2 huikkaa.</string>
+    <string name="task_105">Tästä lähtien jokaisen on huudettava vuoronsa alussa valitsemasi sana. Jos tämä unohtuu 2 huikkaa.</string>
+    <string name="task_106">Kaikki huikat juodaan tuplana tämän kierroksen loppuun asti</string>
+
+    <string name="task_111">Ota välivesi.</string>
+    <string name="task_112">Jäähy. Olet 1 kierroksen pelistä tauolla.Et saa ottaa huikkia tai osallistua pelin tehtäviin.</string>
+    <string name="task_113">Tarjoa oikealla istuvalle välivesi.</string>
+    <string name="task_114">Valitse itsellesi sijaiskärsijäsi, joka juo puolestasi tämän kierroksen ajaksi.</string>
+    <string name="task_115">Kaikki ottavat väliveden</string>
+    <string name="task_116">Tarjoa vasemmalla istuvalle välivesi.</string>
+
+    <string name="task_121">Juo muiden juomatta jääneet huikat.</string>
+    <string name="task_122">Juo lasisi tyhjäksi.</string>
+    <string name="task_123">Tee 10 punnerrusta tai juo lasisi tyhjäksi.</string>
+    <string name="task_124">Juo lasi vettä ykkösellä.</string>
+    <string name="task_125">Näytä paras posesi ja juo shotti.</string>
+    <string name="task_126">Kaada huikka jokaisen lasista itsellesi ja juo juoma ykkösellä.</string>
+
+
+    <string name="title_activity_round">RoundActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
